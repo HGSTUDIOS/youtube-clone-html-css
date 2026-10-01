@@ -18,3 +18,16 @@ p { margin-top: 0; margin-bottom: 0; }
 img { max-width: 100%; }
 
 button, input { font: inherit; }
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 70px;
+  }
+
+  main {
+    width: 100%;
+  }
+}

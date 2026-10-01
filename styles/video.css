@@ -90,14 +90,8 @@
 }
 
 @media (max-width: 600px) {
-  body {
-    padding-top: 70px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 70px;
-  }
-
   .video-grid {
+    width: 100%;
     grid-template-columns: 1fr;
     row-gap: 28px;
   }
